@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Attractor : MonoBehaviour
 {   /*Hier beginnt alles(Danke, Brackeys) 
     Gravity steht. Values zum testen unordentlich. 
@@ -26,15 +27,15 @@ public class Attractor : MonoBehaviour
     public float strength = 10;
     public static List<Attractor> Attractors;
     public Rigidbody rb;
-    public float sec = 0;
+    public float speed;
+    public GlobalVarsHandler globalVarsHandler;
+
     Rigidbody rbToAttract;
-    Vector3 direction;
+    public Vector3 direction;
     float distance;
 
     void FixedUpdate()
     {
-        sec += Time.deltaTime;
-        Debug.Log("sec.:" + sec);
         //optimierung aus kommis
         //Also also, method calling is expensive so try to do pretty much that in FixedUpdate:
         // for some reason rb.position is expensive vs transform.position(
@@ -47,7 +48,7 @@ public class Attractor : MonoBehaviour
         }
         */
         //
-        Attractor[] attractors = FindObjectsOfType<Attractor>();
+
         foreach (Attractor attractor in Attractors)
         {
             if (attractor != this) { 
@@ -90,14 +91,15 @@ public class Attractor : MonoBehaviour
 
         rbToAttract.AddForce(force);
 
-        float speed = (distance / sec) * Time.fixedDeltaTime; 
+        float speed = (distance / globalVarsHandler.sec) * Time.fixedDeltaTime;
 
         //Debug.LogFormat("Planet: {0} .. Speed: {1}" + rb.name, speed);
-        if ((int)sec % 5 == 0)
+        /*
+         if ((int)globalVarsHandler.sec % 5 == 0)
         {
             Debug.LogFormat("--|| NAME:{0} | SPEED: {6} | DIRECTION:{1} | DISTANCE:{2} | rbToATTRACT:{3}" +
                 " | FORCE:{4} | FORCEMAGNITUDE:{5} ||--", rb.name, direction, distance, rbToAttract, force, forceMagnitude, speed);
         }
-
+        */
     }
 }

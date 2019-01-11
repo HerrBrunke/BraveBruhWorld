@@ -153,7 +153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 160050090}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &293752187
 TrailRenderer:
@@ -201,8 +201,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -306,7 +306,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -333,6 +333,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!1001 &692338652
@@ -385,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -412,6 +422,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!1001 &720331319
@@ -464,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -491,6 +511,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!4 &826665300 stripped
@@ -581,10 +611,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907976320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.8, y: -3.5, z: -40.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.7666664, y: 0.33333334, z: -10.52}
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   m_Children: []
-  m_Father: {fileID: 160050090}
+  m_Father: {fileID: 1561681903}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1008428791
@@ -664,8 +694,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -763,7 +793,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -790,6 +820,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!1001 &1020854906
@@ -842,7 +882,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -869,6 +909,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!1 &1097798784
@@ -948,8 +998,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -997,13 +1047,7 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!4 &1234351064 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
-    type: 3}
-  m_PrefabInstance: {fileID: 1020854906}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1248664386
+--- !u!1 &1204239507
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1011,28 +1055,103 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1248664387}
+  - component: {fileID: 1204239509}
+  - component: {fileID: 1204239508}
   m_Layer: 0
-  m_Name: PlanetDataHandler
+  m_Name: GlobalVarsHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1248664387
+--- !u!114 &1204239508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204239507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eba19a62bced42c9830022b212f8a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sec: 0
+--- !u!4 &1204239509
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248664386}
+  m_GameObject: {fileID: 1204239507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.6343124, y: 5.374119, z: -23.368008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1234351064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1020854906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1502198637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502198639}
+  - component: {fileID: 1502198638}
+  m_Layer: 0
+  m_Name: DataHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1502198638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502198637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49c850b5dac44eea840164058c21c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attractors: []
+  globalVarsHandler: {fileID: 1204239508}
+  name: 
+  speed: 0
+  direction: {x: 0, y: 0, z: 0}
+  time: 0
+--- !u!4 &1502198639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502198637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6343124, y: 5.374119, z: -23.368008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1561681903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
+    type: 3}
+  m_PrefabInstance: {fileID: 1944994548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1625513828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,8 +1229,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1236,8 +1355,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1335,7 +1454,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -1362,6 +1481,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!1001 &1790171483
@@ -1414,7 +1543,7 @@ PrefabInstance:
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1555453318373948521, guid: b7d814e5476134164a6901425ac11d72,
         type: 3}
@@ -1441,6 +1570,16 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 2183099142993426676, guid: b7d814e5476134164a6901425ac11d72,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d814e5476134164a6901425ac11d72, type: 3}
 --- !u!4 &1855457309 stripped
@@ -1526,8 +1665,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1659,7 +1798,7 @@ PrefabInstance:
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6.3
       objectReference: {fileID: 0}
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
@@ -1669,7 +1808,7 @@ PrefabInstance:
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -22.86
       objectReference: {fileID: 0}
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
@@ -1694,7 +1833,7 @@ PrefabInstance:
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3685770773898223319, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
@@ -1716,10 +1855,20 @@ PrefabInstance:
       propertyPath: G
       value: 6.674
       objectReference: {fileID: 0}
+    - target: {fileID: 4106022177475451466, guid: 638e5f6e4250742d1bd354b295a68d24,
+        type: 3}
+      propertyPath: GlobalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239507}
+    - target: {fileID: 4106022177475451466, guid: 638e5f6e4250742d1bd354b295a68d24,
+        type: 3}
+      propertyPath: globalVarsHandler
+      value: 
+      objectReference: {fileID: 1204239508}
     - target: {fileID: 5497662921159709940, guid: 638e5f6e4250742d1bd354b295a68d24,
         type: 3}
       propertyPath: m_Mass
-      value: 5970.22
+      value: 4500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 638e5f6e4250742d1bd354b295a68d24, type: 3}
@@ -1800,8 +1949,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009346008
-        value: 0.5428581
+        time: 0
+        value: 0.20108414
         inSlope: 0
         outSlope: 0
         tangentMode: 0
