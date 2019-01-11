@@ -26,9 +26,15 @@ public class Attractor : MonoBehaviour
     public float strength = 10;
     public static List<Attractor> Attractors;
     public Rigidbody rb;
+    public float sec = 0;
+    Rigidbody rbToAttract;
+    Vector3 direction;
+    float distance;
 
     void FixedUpdate()
     {
+        sec += Time.deltaTime;
+        Debug.Log("sec.:" + sec);
         //optimierung aus kommis
         //Also also, method calling is expensive so try to do pretty much that in FixedUpdate:
         // for some reason rb.position is expensive vs transform.position(
@@ -67,19 +73,31 @@ public class Attractor : MonoBehaviour
         rb.AddForce(transform.forward * strength);
     }
 
-    void Attract(Attractor objToAttract) {
-        Rigidbody rbToAttract = objToAttract.rb;
+    void Attract(Attractor objToAttract)
+    {
+        rbToAttract = objToAttract.rb;
 
-        Vector3 direction = rb.position - rbToAttract.position;
-        float distance = direction.magnitude;
+        direction = rb.position - rbToAttract.position;
+        distance = direction.magnitude;
 
-        if (distance == 0f) {
+        if (distance == 0f)
+        {
             return;
         }
 
         float forceMagnitude = G * (rb.mass * rbToAttract.mass) / Mathf.Pow(distance, 2);
-        Vector3 force = (direction.normalized * forceMagnitude)* Time.fixedDeltaTime;
+        Vector3 force = (direction.normalized * forceMagnitude) * Time.fixedDeltaTime;
 
         rbToAttract.AddForce(force);
+
+        float speed = (distance / sec) * Time.fixedDeltaTime; 
+
+        //Debug.LogFormat("Planet: {0} .. Speed: {1}" + rb.name, speed);
+        if ((int)sec % 5 == 0)
+        {
+            Debug.LogFormat("--|| NAME:{0} | SPEED: {6} | DIRECTION:{1} | DISTANCE:{2} | rbToATTRACT:{3}" +
+                " | FORCE:{4} | FORCEMAGNITUDE:{5} ||--", rb.name, direction, distance, rbToAttract, force, forceMagnitude, speed);
+        }
+
     }
 }
