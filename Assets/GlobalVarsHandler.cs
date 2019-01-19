@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class GlobalVarsHandler : MonoBehaviour
 {
-    public float sec = 0;
+    public float sec;
+
+    private void OnEnable()
+    {
+        sec = 0f;
+    }
 
     // Update is called once per frame
     void FixedUpdate()

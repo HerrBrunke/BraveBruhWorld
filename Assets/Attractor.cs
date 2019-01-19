@@ -71,7 +71,7 @@ public class Attractor : MonoBehaviour
 
     private void Start()
     {
-        rb.AddForce(transform.forward * strength);
+       rb.AddForce(transform.forward * strength);
     }
 
     void Attract(Attractor objToAttract)
@@ -91,15 +91,15 @@ public class Attractor : MonoBehaviour
 
         rbToAttract.AddForce(force);
 
-        float speed = (distance / globalVarsHandler.sec) * Time.fixedDeltaTime;
+        speed = (distance / globalVarsHandler.sec) * Time.fixedDeltaTime;
 
         //Debug.LogFormat("Planet: {0} .. Speed: {1}" + rb.name, speed);
-        /*
+
          if ((int)globalVarsHandler.sec % 5 == 0)
         {
             Debug.LogFormat("--|| NAME:{0} | SPEED: {6} | DIRECTION:{1} | DISTANCE:{2} | rbToATTRACT:{3}" +
                 " | FORCE:{4} | FORCEMAGNITUDE:{5} ||--", rb.name, direction, distance, rbToAttract, force, forceMagnitude, speed);
         }
-        */
+        
     }
 }
