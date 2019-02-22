@@ -26,6 +26,7 @@ public class Attractor : MonoBehaviour
     public float G = 6674f;
     public float strength = 10;
     public static List<Attractor> Attractors;
+    public static GameObject playerObj;
     public Rigidbody rb;
     public float speed;
     public GlobalVarsHandler globalVarsHandler;
@@ -72,6 +73,9 @@ public class Attractor : MonoBehaviour
     private void Start()
     {
        rb.AddForce(transform.forward * strength);
+        if(playerObj == null) {
+            Debug.Log("No player found!");
+        }
     }
 
     void Attract(Attractor objToAttract)
